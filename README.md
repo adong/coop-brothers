@@ -3,6 +3,7 @@
 [![BeTTer TogeTTher title screen](docs/screenshot.jpg)](https://adong.github.io/coop-brothers/)
 
 Press **?** any time (or tap the round **?** button on the left edge) to see the keys. The game waits while you look.
+Tap **中文 / EN** under it to switch between English and 中文 (the dashboard and every game remember the choice).
 
 A co-op puzzle platformer starring Teddy and Tommy, built with Claude Code from plain JavaScript and Three.js.
 The brothers explore a cosy backyard temple: Teddy is 🏀 orange and Tommy is ✌️ mint, and each one can only splash
@@ -129,6 +130,8 @@ js/view.js       the Three.js scene: builds each level, the brothers, effects, t
 js/poses.js      extra poses on top of Kit.people.pose (stand, push, wade, splash, cheer)
 js/sfx.js        sounds made with Kit.sound.tone / hiss
 js/game.js       screens, input, companion button, HUD, stars and saving, title demo, test hooks
+js/keys.js       the keys the ? panel shows (Kit.help)
+js/zh.js         中文: the game's words for Kit.lang (TEDDY, TOMMY and the game's name stay in English)
 tools/check.js   plays every solution headlessly (node tools/check.js)
 kit/             copy of ~/claude-games/kit (python3 ../kit/tools/sync.py .); don't edit it here
 docs/            screenshots

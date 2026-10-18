@@ -181,7 +181,7 @@
   function hideBanner() { $('banner').classList.add('hidden'); G.bannerT = 0; }
 
   function toast(text, c, big) {
-    if (G.attract) return;
+    if (G.attract && G.state === 'title') return; // the title-screen demo stays quiet (the level screen can still toast)
     const el = document.createElement('div');
     el.className = 'toast' + (c ? ' ' + c : '') + (big ? ' big' : '');
     // emoji keep their own colours: no outline on them
