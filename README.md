@@ -2,6 +2,8 @@
 
 [![BeTTer TogeTTher title screen](docs/screenshot.jpg)](https://adong.github.io/coop-brothers/)
 
+Press **?** any time (or tap the round **?** button on the left edge) to see the keys. The game waits while you look.
+
 A co-op puzzle platformer starring Teddy and Tommy, built with Claude Code from plain JavaScript and Three.js.
 The brothers explore a cosy backyard temple: Teddy is 🏀 orange and Tommy is ✌️ mint, and each one can only splash
 through pools and walk through gates of his own colour. They help each other with pressure plates, levers, lifts
