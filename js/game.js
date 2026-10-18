@@ -28,7 +28,7 @@
 
   // ---------------------------------------------------------------- boot
   function boot() {
-    document.title = CB.TITLE;
+    document.title = `${CB.TITLE} · Teddy & Tommy`;
     const sp = CB.TITLE.indexOf(' ');
     // the display font is all capitals, so the double Ts get their own colour to keep the pun
     const tt = (w) => w.replace(/[&<>]/g, '').replace(/TT/g, '<em>TT</em>');

@@ -1,3 +1,3 @@
-/* The game's name, in one place. A working title: Alan names his games himself. */
+/* The game's name, in one place. Alan named it. */
 window.CB = window.CB || {};
 CB.TITLE = 'BeTTer TogeTTher';
